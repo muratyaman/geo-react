@@ -1,6 +1,6 @@
 {
   "name": "georeact",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react component to make it easier to work with geolocation",
   "main": "lib/index.js",
   "scripts": {

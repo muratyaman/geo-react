@@ -16,8 +16,8 @@ export const deg2rad = (deg) => {
 
 /**
  * Haversine distance
- * @param GeoPos pos1
- * @param GeoPos pos2
+ * @param {GeoPos} pos1
+ * @param {GeoPos} pos2
  * @returns {number}
  * @see https://rosettacode.org/wiki/Haversine_formula#ES6
  */
@@ -47,8 +47,8 @@ export const haversineDistanceInKM = (pos1, pos2) => {
 
 /**
  * Get distance in metres
- * @param pos1
- * @param pos2
+ * @param {GeoPos} pos1
+ * @param {GeoPos} pos2
  * @returns {number|*}
  */
 export const haversineDistanceInMetres = (pos1, pos2) => {
@@ -59,8 +59,4 @@ export const haversineDistanceInMetres = (pos1, pos2) => {
   }
 
   return round(haversineDistanceInKM(pos1, pos2) * 1000.0);
-};
-
-export default {
-  haversineDistanceInKM, haversineDistanceInMetres,
 };

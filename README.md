@@ -9,6 +9,12 @@ this repo is using lerna: https://lerna.js.org/
 lerna bootstrap
 ``
 
+## build georeact
+
+``
+lerna run build --scope=georeact
+``
+
 ## run demo
 
 ``
